@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family= Rubik & display=swap') ;
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+textarea, input{
+  padding: 5px;
+  border-radius: 10px;
+}
+
+textarea:focus, input:focus {
+  border: none;
+  box-shadow: 0 0 0 0;
+  outline: none;
+}
+
+body{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #282a36;
+}
+
+.formulario {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 40%;
+  height: 48%;
+  border-radius: 10px;
+  gap: 10px;
+  background-color: #44475a;
+}
+
+p {
+  color: #50fa7b;
+  font-family: 'Rubik';
+}
+
+.form-text {
+  color: #ff79c6;
+  font-size: 30px;
+}
+
+button {
+  background-color: #bd93f9;
+  font-size: 15px;
+  border: none;
+  padding: 10px 18px;
+  border-radius: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
